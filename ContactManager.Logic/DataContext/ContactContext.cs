@@ -7,7 +7,7 @@ namespace ContactManager.Logic.DataContext
     /// <summary>
     /// Represents the database context for managing contacts.
     /// </summary>
-    internal class ContactContext : DbContext, IContext
+    internal partial class ContactContext : DbContext, IContext
     {
         #region fields
         /// <summary>
