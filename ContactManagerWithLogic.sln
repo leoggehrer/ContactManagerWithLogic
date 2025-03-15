@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManager.Common", "ContactManager.Common\ContactManager.Common.csproj", "{014B19EA-5227-4C2E-9680-5DF2070F4949}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManager.Logic", "ContactManager.Logic\ContactManager.Logic.csproj", "{928CACAD-FFE3-4AE2-AA8E-3ABF63D95669}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{014B19EA-5227-4C2E-9680-5DF2070F4949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014B19EA-5227-4C2E-9680-5DF2070F4949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014B19EA-5227-4C2E-9680-5DF2070F4949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014B19EA-5227-4C2E-9680-5DF2070F4949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{928CACAD-FFE3-4AE2-AA8E-3ABF63D95669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928CACAD-FFE3-4AE2-AA8E-3ABF63D95669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928CACAD-FFE3-4AE2-AA8E-3ABF63D95669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928CACAD-FFE3-4AE2-AA8E-3ABF63D95669}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84ABB754-8575-451F-B4DF-B4A6A70AD988}
+	EndGlobalSection
+EndGlobal
