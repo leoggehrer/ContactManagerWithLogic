@@ -30,9 +30,12 @@ namespace ContactManager.Logic.DataContext
 
         public static void InitDatabase()
         {
-            var context = CreateContext();
-
             CreateDatabase();
+
+            // csv-Data importieren
+            var context = CreateContext();
+            // ...
+
         }
 #endif
     }
